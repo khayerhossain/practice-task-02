@@ -176,6 +176,49 @@ a {
     transform: translate(-50%, -50%);
 }
 
+/* why-chose-us*/
+
+.why-chose-us {
+    text-align: center;
+    padding: 50px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card-icon img {
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.card {
+    background-color: #ffefef;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+/* text abd video container*/
+
+.perfect-place {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+#myvideo {
+    border-radius: 10px;
+}
+
+
+
 
 
 
@@ -208,18 +251,18 @@ a {
     .banner-image img {
         width: 360px;
         height: 485px;
-        margin-left: 18px;
+        margin-left: 10px;
 
     }
 
     .inputs {
         flex-direction: column;
         position: absolute;
-        top: 55%;
+        top: 58%;
     }
 
     .banner-title {
-        font-size: 20px;
+        font-size: 18px;
         position: absolute;
         top: 20%;
         left: 50%;
@@ -316,5 +359,28 @@ a {
         transform: translate(-50%, -50%);
     }
 
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+
+    .card {
+        width: 330px;
+    }
+
+    .perfect-place {
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    }
+
+    .place-container {
+        width: 340px;
+    }
+
+    #myvideo {
+        width: 340px;
+        height: 200px;
+    }
 
 }
