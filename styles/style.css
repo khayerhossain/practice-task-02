@@ -358,13 +358,13 @@ footer {
     .inputs {
         flex-direction: column;
         position: absolute;
-        top: 61%;
+        top: 70%;
     }
 
     .banner-title {
         font-size: 18px;
         position: absolute;
-        top: 23%;
+        top: 28%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
@@ -372,7 +372,7 @@ footer {
 
     .banner-description {
         position: absolute;
-        top: 34%;
+        top: 40%;
         width: 80%;
         text-align: center;
         color: black
