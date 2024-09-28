@@ -277,6 +277,47 @@ a {
     bottom: -470%;
 }
 
+/* footer logo */
+
+footer {
+    padding-top: 40px;
+    margin-top: 20px;
+    background: rgb(245, 241, 234);
+}
+
+.footer-logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer-description {
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 20px;
+    margin-bottom: 40px;
+}
+
+.copy-right {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
 
 
 
@@ -461,5 +502,13 @@ a {
 
     .discount-tag {
         display: none;
+    }
+
+    .footer-description {
+        margin: 10px;
+    }
+
+    .footer {
+        margin-left: 3px;
     }
 }
