@@ -309,7 +309,7 @@ a {
 
     .banner-image img {
         width: 360px;
-        height: 485px;
+        height: 520px;
         margin-left: 10px;
 
     }
@@ -317,13 +317,13 @@ a {
     .inputs {
         flex-direction: column;
         position: absolute;
-        top: 58%;
+        top: 61%;
     }
 
     .banner-title {
         font-size: 18px;
         position: absolute;
-        top: 20%;
+        top: 23%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
@@ -331,7 +331,7 @@ a {
 
     .banner-description {
         position: absolute;
-        top: 30%;
+        top: 34%;
         width: 80%;
         text-align: center;
         color: black
@@ -460,9 +460,6 @@ a {
     }
 
     .discount-tag {
-        width: 220px;
-        height: 110px;
-        position: absolute;
-        bottom: -565%;
+        display: none;
     }
 }
