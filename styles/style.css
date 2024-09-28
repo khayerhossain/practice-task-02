@@ -358,7 +358,7 @@ footer {
     .inputs {
         flex-direction: column;
         position: absolute;
-        top: 75%;
+        top: 85%;
     }
 
     .banner-title {
